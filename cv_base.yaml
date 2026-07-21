@@ -1,0 +1,34 @@
+# Inventario do candidato — materia-prima do CV Tailor (Fase 2).
+nome: Francisco Lima Santos
+resumo_base: >-
+  Cursando Analise e Desenvolvimento de Sistemas, com base em contabilidade e
+  mercado financeiro. Construo pipelines de dados em Python e PostgreSQL.
+
+skills:
+  - python
+  - sql
+  - postgresql
+  - pandas
+  - etl
+  - fastapi
+  - docker
+  - git
+  - api rest
+  - modelagem de dados
+  - excel
+  - web scraping
+  - lgpd
+
+projetos:
+  - nome: Jusplanner
+    tech: [python, fastapi, postgresql, etl, api rest, hmac, sql]
+    resumo: "SaaS juridico; pipeline ETL com APIs do CNJ, API FastAPI com auth HMAC."
+  - nome: bakery-etl-pipeline
+    tech: [python, pandas, postgresql, docker, etl, sql]
+    resumo: "Pipeline ETL em Python (POO+pandas), PostgreSQL e Docker."
+  - nome: Hey Joe
+    tech: [python, fastapi, api rest, llm]
+    resumo: "Assistente WhatsApp: FastAPI, transcricao de audio, roteamento de LLM."
+  - nome: job-radar
+    tech: [python, web scraping, etl, sql, pytest]
+    resumo: "Agregador de vagas: scraping multi-fonte, normalizacao e score, com testes."
