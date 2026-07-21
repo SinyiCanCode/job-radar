@@ -1,0 +1,12 @@
+# Ajuste fino do motor de qualificação — sem mexer no código.
+
+pesos:              # devem somar ~1.0
+  skills: 0.45
+  titulo: 0.25
+  senioridade: 0.15
+  modalidade: 0.10
+  recencia: 0.05
+
+bonus_keywords_max: 0.05     # bônus additivo máximo vindo de keywords_bonus
+fuzzy_threshold: 0.82        # similaridade mínima (0-1) p/ casar skill/título aproximado
+score_minimo_fila: 40        # vagas abaixo disso não entram na fila final

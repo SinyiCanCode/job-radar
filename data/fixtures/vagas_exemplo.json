@@ -1,0 +1,83 @@
+[
+  {
+    "id": "fx-001",
+    "title": "Estágio em Dados",
+    "company": "DataLab",
+    "url": "https://example.com/vagas/fx-001",
+    "description": "Buscamos estagiário para atuar com Python, SQL e pandas na construção de pipelines de ETL. Trabalho 100% remoto. Desejável PostgreSQL e Git. Não exigimos experiência prévia.",
+    "location": "Remoto - Brasil",
+    "posted_at": "2026-07-11"
+  },
+  {
+    "id": "fx-002",
+    "title": "Analista de Dados Júnior",
+    "company": "Nubli (fintech)",
+    "url": "https://example.com/vagas/fx-002",
+    "description": "Vaga home office para análise de dados do mercado financeiro. Requisitos: Python, SQL, PostgreSQL e modelagem de dados. Ambiente fintech.",
+    "location": "Remoto",
+    "posted_at": "2026-07-09"
+  },
+  {
+    "id": "fx-003",
+    "title": "Desenvolvedor Python Júnior",
+    "company": "SoftX",
+    "url": "https://example.com/vagas/fx-003",
+    "description": "Vaga júnior. Requisito obrigatório: 3 anos de experiência com Python e Django. Trabalho remoto.",
+    "location": "Remoto",
+    "posted_at": "2026-07-05"
+  },
+  {
+    "id": "fx-004",
+    "title": "Analista de Dados Sênior",
+    "company": "BigCorp",
+    "url": "https://example.com/vagas/fx-004",
+    "description": "Liderança técnica de projetos de dados. Python, SQL e mentoria de júniores. Remoto.",
+    "location": "Remoto",
+    "posted_at": "2026-07-10"
+  },
+  {
+    "id": "fx-005",
+    "title": "Analista de Dados Júnior",
+    "company": "VarejoTech",
+    "url": "https://example.com/vagas/fx-005",
+    "description": "Atuação presencial em São Paulo. Python e SQL para relatórios comerciais.",
+    "location": "São Paulo, SP - Presencial",
+    "posted_at": "2026-07-08"
+  },
+  {
+    "id": "fx-006",
+    "title": "Enfermeiro Plantonista",
+    "company": "Hospital Vida",
+    "url": "https://example.com/vagas/fx-006",
+    "description": "Atendimento a pacientes em regime de plantão 12x36. Registro no COREN obrigatório.",
+    "location": "Natal, RN",
+    "posted_at": "2026-07-06"
+  },
+  {
+    "id": "fx-007",
+    "title": "Junior Data Analyst",
+    "company": "GlobalCorp",
+    "url": "https://example.com/vagas/fx-007",
+    "description": "Work with Python and SQL on analytics dashboards. Fully remote position.",
+    "location": "USA Only",
+    "posted_at": "2026-07-10"
+  },
+  {
+    "id": "fx-008",
+    "title": "Estágio em BI",
+    "company": "AnalyticsCo",
+    "url": "https://example.com/vagas/fx-008",
+    "description": "Estágio para construir dashboards com Power BI, Excel e SQL. Remoto. Não exige experiência.",
+    "location": "Remoto - Brasil",
+    "posted_at": "2026-07-12"
+  },
+  {
+    "id": "fx-009",
+    "title": "Engenheiro de Dados Júnior",
+    "company": "Contabilizei",
+    "url": "https://example.com/vagas/fx-009",
+    "description": "Construção de pipelines de ETL com Python, SQL, Docker e FastAPI em ambiente contábil. Home office.",
+    "location": "Remoto",
+    "posted_at": "2026-07-07"
+  }
+]

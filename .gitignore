@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+saida/
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+*.zip
+
+*.zip
+_tmp/

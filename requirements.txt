@@ -1,0 +1,6 @@
+PyYAML>=6.0
+requests>=2.28
+
+# Opcionais:
+# playwright>=1.40   # só p/ o scraper do LinkedIn (desativado por padrão)
+# pytest>=7.0        # p/ rodar a suíte de testes

@@ -1,0 +1,90 @@
+# Perfil-alvo do Francisco - calibra a qualificacao das vagas.
+# Foco: ESTAGIO em desenvolvimento e dados, remoto Brasil.
+
+titulos_alvo:
+  - estágio em desenvolvimento
+  - estagiário de desenvolvimento
+  - estágio desenvolvedor
+  - estágio backend
+  - estágio backend python
+  - estágio software engineer
+  - software engineer intern
+  - backend intern
+  - developer intern
+  - estágio engenharia de software
+  - estágio tecnologia
+  - estágio sistemas
+  - estágio em programação
+  - estágio em ti
+  - estágio em computação
+  - estágio ciência de dados
+  - estágio engenharia de dados
+  - estágio analytics
+  - estágio business intelligence
+  - estágio bi
+  - estágio data engineer
+  - estágio data analyst
+
+skills:
+  - python
+  - sql
+  - postgresql
+  - mysql
+  - pandas
+  - numpy
+  - fastapi
+  - django
+  - flask
+  - docker
+  - git
+  - github
+  - linux
+  - api
+  - rest
+  - json
+  - etl
+  - excel
+  - power bi
+  - aws
+
+skills_obrigatorias: []          # estagio: nao exigir skill obrigatoria
+
+senioridades_aceitas:
+  - estagio
+  - trainee
+  - junior
+
+modalidades_aceitas:
+  - remoto
+
+localizacao: "Parnamirim, RN"
+aceita_remoto_global: false
+
+salario_minimo: null
+
+keywords_bonus:
+  - fintech
+  - financeiro
+  - banking
+  - pagamentos
+  - contábil
+  - contabilidade
+  - jurídico
+  - legaltech
+  - auditoria
+  - automação
+  - chatbot
+  - inteligência artificial
+  - ia
+  - machine learning
+  - etl
+  - dados
+
+keywords_veto:
+  - sênior
+  - senior
+  - especialista
+  - pleno
+  - tech lead
+  - coordenador
+  - gerente
