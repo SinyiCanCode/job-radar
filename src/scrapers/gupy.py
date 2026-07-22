@@ -1,11 +1,11 @@
-﻿"""Gupy - portal publico de vagas (a plataforma de ATS mais comum no Brasil).
+"""Gupy - portal publico de vagas (a plataforma de ATS mais comum no Brasil).
 
 Endpoint real do portal de candidatos (descoberto via DevTools):
   GET https://employability-portal.gupy.io/api/v1/jobs?jobName=<termo>&limit=<n>&offset=<n>
 
-A listagem traz titulo, empresa, local, modalidade E a descricao completa da vaga
-(campo 'description') - permite o match de skills de verdade. Campos resolvidos
-de forma defensiva (varios aliases).
+A listagem traz titulo, empresa, local, modalidade E a descricao completa da
+vaga (campo 'description') - o que permite o match de skills de verdade.
+Os nomes de campo sao resolvidos de forma defensiva (varios aliases).
 """
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ from .base import BaseScraper, build_job
 from ..models import Modalidade
 
 API = "https://employability-portal.gupy.io/api/v1/jobs"
-PAGE = 12
+PAGE = 12  # limite por pagina observado na API
 
 
 def _first(d, *keys, default=None):

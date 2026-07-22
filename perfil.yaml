@@ -5,49 +5,32 @@ titulos_alvo:
   - estágio em desenvolvimento
   - estagiário de desenvolvimento
   - estágio desenvolvedor
-  - estágio backend
-  - estágio backend python
-  - estágio software engineer
-  - software engineer intern
-  - backend intern
-  - developer intern
-  - estágio engenharia de software
-  - estágio tecnologia
-  - estágio sistemas
   - estágio em programação
+  - estágio backend
+  - estágio python
   - estágio em ti
-  - estágio em computação
-  - estágio ciência de dados
+  - estágio em dados
+  - estagiário de dados
+  - estágio analista de dados
   - estágio engenharia de dados
-  - estágio analytics
-  - estágio business intelligence
-  - estágio bi
-  - estágio data engineer
-  - estágio data analyst
+  - analista de dados júnior
+  - desenvolvedor júnior
+  - python júnior
 
 skills:
   - python
   - sql
   - postgresql
-  - mysql
   - pandas
-  - numpy
+  - etl
   - fastapi
-  - django
-  - flask
   - docker
   - git
-  - github
-  - linux
-  - api
-  - rest
-  - json
-  - etl
+  - api rest
+  - modelagem de dados
   - excel
-  - power bi
-  - aws
 
-skills_obrigatorias: []          # estagio: nao exigir skill obrigatoria
+skills_obrigatorias: []
 
 senioridades_aceitas:
   - estagio
@@ -59,24 +42,15 @@ modalidades_aceitas:
 
 localizacao: "Parnamirim, RN"
 aceita_remoto_global: false
-
 salario_minimo: null
 
 keywords_bonus:
   - fintech
   - financeiro
-  - banking
-  - pagamentos
   - contábil
   - contabilidade
   - jurídico
   - legaltech
-  - auditoria
-  - automação
-  - chatbot
-  - inteligência artificial
-  - ia
-  - machine learning
   - etl
   - dados
 

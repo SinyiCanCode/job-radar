@@ -85,6 +85,16 @@ python buscar.py
 
 As queries ficam no topo do `buscar.py` — edite pra mirar o que você quiser. Toda execução salva a fila em `saida/*.csv` (abre no Excel) e `saida/*.json`.
 
+**Histórico** — cada execução do `buscar.py` guarda o que já viu (SQLite) e marca as vagas `[NOVA]` desde a última vez. Use `--somente-novas` pra ver só o que apareceu agora.
+
+**Adaptar o CV à vaga (CV Tailor)** — pra cada vaga da fila, mostra o que ajustar no CV: cobertura de requisitos, as keywords exatas do anúncio a espelhar, os gaps e qual projeto seu destacar.
+
+```bash
+python adaptar.py --fontes gupy --query "estágio dados" --top 5
+```
+
+Seu inventário (skills e projetos) fica em `cv_base.yaml`.
+
 ## Fontes
 
 | Fonte | Status | Observação |
@@ -117,10 +127,11 @@ Cobrem o motor de qualificação (vaga ideal pontua alto; presencial/sênior/for
 
 ## Roadmap
 
-- Buscar a descrição completa por vaga pra afinar o match de skills.
-- Persistir histórico (SQLite) pra não repontuar o que já viu.
-- Mais fontes BR (Programathor, Trampos, Remotar).
-- Notificação diária com a fila nova por e-mail/Telegram.
+- [x] **CV Tailor** — adapta o CV a cada vaga: keywords a espelhar, gaps e projeto a destacar.
+- [ ] LLM opcional pra reescrever os bullets do CV na linguagem do anúncio.
+- [x] **Histórico (SQLite)** — memória entre execuções; destaca o que é novo (`--somente-novas`).
+- [ ] Mais fontes BR (Programathor, Trampos, Remotar).
+- [ ] Notificação diária com a fila nova por e-mail/Telegram.
 
 ## Uso responsável
 
